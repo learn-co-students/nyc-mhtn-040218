@@ -1,0 +1,462 @@
+id,name,line,division,latitude,longitude
+0,103rd St,8 Avenue,IND,40.796092,-73.961454
+1,103rd St,Broadway-7th Ave,IRT,40.799446,-73.968379
+2,103rd St,Flushing,IRT,40.749865,-73.8627
+3,103rd St,Lexington,IRT,40.7906,-73.947478
+4,104th St-102nd St,Broadway Jamaica,BMT,40.695178,-73.84433
+5,104th St-Oxford Av,Liberty,IND,40.681711,-73.837683
+6,110th St,Lexington,IRT,40.79502,-73.94425
+7,110th St-Central Park North,Lenox,IRT,40.799075,-73.951822
+8,111th St,Broadway Jamaica,BMT,40.697418,-73.836345
+9,111th St,Flushing,IRT,40.75173,-73.855334
+10,111th St-Greenwood Av,Liberty,IND,40.684331,-73.832163
+11,116th St,8 Avenue,IND,40.805085,-73.954882
+12,116th St,Lenox,IRT,40.802098,-73.949625
+13,116th St,Lexington,IRT,40.798629,-73.941617
+14,116th St-Columbia University,Broadway-7th Ave,IRT,40.807722,-73.96411
+15,121st St,Broadway Jamaica,BMT,40.700492,-73.828294
+16,125th St,8 Avenue,IND,40.811109,-73.952343
+17,125th St,Broadway-7th Ave,IRT,40.815581,-73.958372
+18,125th St,Lenox,IRT,40.807754,-73.945495
+19,125th St,Lexington,IRT,40.804138,-73.937594
+20,135th St,8 Avenue,IND,40.817894,-73.947649
+21,135th St,Lenox,IRT,40.814229,-73.94077
+22,137th St-City College,Broadway-7th Ave,IRT,40.822008,-73.953676
+23,138th St,Jerome,IRT,40.813224,-73.929849
+24,138th St-3rd Ave,Pelham,IRT,40.810476,-73.926138
+25,145th St,8 Avenue,IND,40.824783,-73.944216
+26,145th St,Broadway-7th Ave,IRT,40.826551,-73.95036
+27,145th St,Lenox,IRT,40.820421,-73.936245
+28,149th St-3rd Av,White Plains Road,IRT,40.816109,-73.917757
+29,149th St-Grand Concourse,Jerome,IRT,40.818375,-73.927351
+30,14th St,6 Avenue,IND,40.738228,-73.996209
+31,14th St,8 Avenue,IND,40.740893,-74.00169
+32,14th St,Broadway-7th Ave,IRT,40.737826,-74.000201
+33,14th St-Union Square,Lexington,IRT,40.734673,-73.989951
+34,155th St,8 Avenue,IND,40.830518,-73.941514
+35,155th St,Concourse,IND,40.830135,-73.938209
+36,157th St,Broadway-7th Ave,IRT,40.834041,-73.94489
+37,163rd St - Amsterdam Av,8 Avenue,IND,40.836013,-73.939892
+38,167th St,Concourse,IND,40.833769,-73.918432
+39,167th St,Jerome,IRT,40.835537,-73.9214
+40,168th St,Broadway-7th Ave,IRT,40.840556,-73.940133
+41,168th St - Washington Heights,8 Avenue,IND,40.840719,-73.939561
+42,169th St,Queens Boulevard,IND,40.71047,-73.793604
+43,170th St,Concourse,IND,40.839306,-73.9134
+44,170th St,Jerome,IRT,40.840075,-73.917791
+45,174-175th Sts,Concourse,IND,40.8459,-73.910136
+46,174th St,White Plains Road,IRT,40.837288,-73.887734
+47,175th St,8 Avenue,IND,40.847391,-73.939704
+48,176th St,Jerome,IRT,40.84848,-73.911794
+49,181st St,8 Avenue,IND,40.851695,-73.937969
+50,181st St,Broadway-7th Ave,IRT,40.849505,-73.933596
+51,182nd-183rd Sts,Concourse,IND,40.856093,-73.900741
+52,183rd St,Jerome,IRT,40.858407,-73.903879
+53,18th Av,Culver,IND,40.629755,-73.976971
+54,18th Av,Sea Beach,BMT,40.620671,-73.990414
+55,18th Av,West End,BMT,40.607954,-74.001736
+56,18th St,Broadway-7th Ave,IRT,40.74104,-73.997871
+57,190th St,8 Avenue,IND,40.859022,-73.93418
+58,191st St,Broadway-7th Ave,IRT,40.855225,-73.929412
+59,1st Av,Canarsie,BMT,40.730953,-73.981628
+60,207th St,Broadway-7th Ave,IRT,40.864614,-73.918819
+61,20th Av,Sea Beach,BMT,40.61741,-73.985026
+62,20th Av,West End,BMT,40.604556,-73.998168
+63,215th St,Broadway-7th Ave,IRT,40.869444,-73.915279
+64,219th St,White Plains Road,IRT,40.883895,-73.862633
+65,21st St,63rd Street,IND,40.754203,-73.942836
+66,21st St,Crosstown,IND,40.744065,-73.949724
+67,225th St,White Plains Road,IRT,40.888022,-73.860341
+68,231st St,Broadway-7th Ave,IRT,40.878856,-73.904834
+69,233rd St,White Plains Road,IRT,40.893193,-73.857473
+70,238th St,Broadway-7th Ave,IRT,40.884667,-73.90087
+71,238th St-Nereid Av,White Plains Road,IRT,40.898379,-73.854376
+72,23rd St,6 Avenue,IND,40.742878,-73.992821
+73,23rd St,8 Avenue,IND,40.745906,-73.998041
+74,23rd St,Broadway,BMT,40.741303,-73.989344
+75,23rd St,Broadway-7th Ave,IRT,40.744081,-73.995657
+76,23rd St,Lexington,IRT,40.739864,-73.986599
+77,23rd St-Ely Av,Queens Boulevard,IND,40.747846,-73.946
+78,25th Av,West End,BMT,40.597704,-73.986829
+79,25th St,4 Avenue,BMT,40.660397,-73.998091
+80,28th St,Broadway,BMT,40.745494,-73.988691
+81,28th St,Broadway-7th Ave,IRT,40.747215,-73.993365
+82,28th St,Lexington,IRT,40.74307,-73.984264
+83,2nd Av,6 Avenue,IND,40.723402,-73.989938
+84,30 Av-Grand Av,Astoria,BMT,40.766779,-73.921479
+85,33rd St,Lexington,IRT,40.746081,-73.982076
+86,34th St,6 Avenue,IND,40.749719,-73.987823
+87,34th St,8 Avenue,IND,40.752287,-73.993391
+88,34th St,Broadway,BMT,40.749567,-73.98795
+89,34th St,Broadway-7th Ave,IRT,40.750373,-73.991057
+90,36 Av-Washington Av,Astoria,BMT,40.756804,-73.929575
+91,36th St,4 Avenue,BMT,40.655144,-74.003549
+92,36th St,Queens Boulevard,IND,40.752039,-73.928781
+93,39 Av-Beebe Av,Astoria,BMT,40.752882,-73.932755
+94,3rd Av,Canarsie,BMT,40.732849,-73.986122
+95,42nd St,6 Avenue,IND,40.754222,-73.984569
+96,42nd St,8 Avenue,IND,40.757308,-73.989735
+97,45 Rd-Court House Sq,Flushing,IRT,40.747023,-73.945264
+98,45th St,4 Avenue,BMT,40.648939,-74.010006
+99,46th St,Queens Boulevard,IND,40.756312,-73.913333
+100,47-50th Sts Rockefeller Center,6 Avenue,IND,40.758663,-73.981329
+101,49th St,Broadway,BMT,40.759901,-73.984139
+102,4th Av,6 Avenue,IND,40.670272,-73.989779
+103,50th St,8 Avenue,IND,40.762456,-73.985984
+104,50th St,Broadway-7th Ave,IRT,40.761728,-73.983849
+105,50th St,West End,BMT,40.63626,-73.994791
+106,51st St,Lexington,IRT,40.757107,-73.97192
+107,53rd St,4 Avenue,BMT,40.645069,-74.014034
+108,55th St,West End,BMT,40.631435,-73.995476
+109,57th St,6 Avenue,IND,40.763972,-73.97745
+110,57th St,Broadway,BMT,40.764664,-73.980658
+111,59th St,4 Avenue,BMT,40.641362,-74.017881
+112,59th St,8 Avenue,IND,40.768296,-73.981736
+113,59th St,Lexington,IRT,40.762526,-73.967967
+114,59th St-Columbus Circle,Broadway-7th Ave,IRT,40.768247,-73.981929
+115,5th Av,Broadway,BMT,40.764811,-73.973347
+116,5th Av,Flushing,IRT,40.753821,-73.981963
+117,5th Av-53rd St,Queens Boulevard,IND,40.760167,-73.975224
+118,62nd St,West End,BMT,40.626472,-73.996895
+119,63rd Drive-Rego Park,Queens Boulevard,IND,40.729846,-73.861604
+120,65th St,Queens Boulevard,IND,40.749669,-73.898453
+121,66th St-Lincoln Center,Broadway-7th Ave,IRT,40.77344,-73.982209
+122,67th Av,Queens Boulevard,IND,40.726523,-73.852719
+123,68th St-Hunter College,Lexington,IRT,40.768141,-73.96387
+124,6th Av,Canarsie,BMT,40.737335,-73.996786
+125,71st St,West End,BMT,40.619589,-73.998864
+126,72nd St,8 Avenue,IND,40.775594,-73.97641
+127,72nd St,Broadway-7th Ave,IRT,40.778453,-73.98197
+128,75th Av,Queens Boulevard,IND,40.718331,-73.837324
+129,77th St,4 Avenue,BMT,40.629742,-74.02551
+130,77th St,Lexington,IRT,40.77362,-73.959874
+131,79th St,Broadway-7th Ave,IRT,40.783934,-73.979917
+132,79th St,West End,BMT,40.613501,-74.00061
+133,7th Av,6 Avenue,IND,40.666271,-73.980305
+134,7th Av,Brighton,BMT,40.67705,-73.972367
+135,7th Av,Queens Boulevard,IND,40.762862,-73.981637
+136,80th St-Hudson St,Liberty,IND,40.679371,-73.858992
+137,81st St - Museum of Natural History,8 Avenue,IND,40.781433,-73.972143
+138,82nd St-Jackson Heights,Flushing,IRT,40.747659,-73.883697
+139,86th St,4 Avenue,BMT,40.622687,-74.028398
+140,86th St,8 Avenue,IND,40.785868,-73.968916
+141,86th St,Broadway-7th Ave,IRT,40.788644,-73.976218
+142,86th St,Lexington,IRT,40.779492,-73.955589
+143,86th St,Sea Beach,BMT,40.592721,-73.97823
+144,88th St-Boyd Av,Liberty,IND,40.679843,-73.85147
+145,8th Av,Canarsie,BMT,40.739777,-74.002578
+146,8th Av,Sea Beach,BMT,40.635064,-74.011719
+147,8th St,Broadway,BMT,40.730328,-73.992629
+148,90th St Elmhurst,Flushing,IRT,40.748408,-73.876613
+149,95th St,4 Avenue,BMT,40.616622,-74.030876
+150,96th St,8 Avenue,IND,40.791646,-73.964699
+151,96th St,Broadway-7th Ave,IRT,40.793919,-73.972323
+152,96th St,Lexington,IRT,40.785672,-73.95107
+153,9th Av,West End,BMT,40.646292,-73.994324
+154,9th St,4 Avenue,BMT,40.670847,-73.988302
+155,Alabama Av,Broadway Jamaica,BMT,40.676992,-73.898654
+156,Allerton Av,White Plains Road,IRT,40.865462,-73.867352
+157,Aqueduct Racetrack,Rockaway,IND,40.672131,-73.835812
+158,Aqueduct-North Conduit Av,Rockaway,IND,40.668234,-73.834058
+159,Astor Place,Lexington,IRT,40.730054,-73.99107
+160,Astoria Blvd-Hoyt Av,Astoria,BMT,40.770258,-73.917843
+161,Atlantic Av,Brighton,BMT,40.68446,-73.97689
+162,Atlantic Av,Canarsie,BMT,40.675345,-73.903097
+163,Atlantic Av-Barclays Ctr,Eastern Parkway,IRT,40.684359,-73.977666
+164,Av H,Brighton,BMT,40.62927,-73.961639
+165,Av I,Culver,IND,40.625322,-73.976127
+166,Av J,Brighton,BMT,40.625039,-73.960803
+167,Av M,Brighton,BMT,40.617618,-73.959399
+168,Av N,Culver,IND,40.61514,-73.974197
+169,Av P,Culver,IND,40.608944,-73.973022
+170,Av U,Brighton,BMT,40.5993,-73.955929
+171,Av U,Culver,IND,40.596063,-73.973357
+172,Av U,Sea Beach,BMT,40.597473,-73.979137
+173,Av X,Culver,IND,40.58962,-73.97425
+174,Bay 50th St,West End,BMT,40.588841,-73.983765
+175,Bay Parkway,West End,BMT,40.601875,-73.993728
+176,Bay Parkway-22nd Av,Culver,IND,40.620769,-73.975264
+177,Bay Parkway-22nd Av,Sea Beach,BMT,40.611815,-73.981848
+178,Bay Ridge Av,4 Avenue,BMT,40.634967,-74.023377
+179,Baychester Av,Dyre Av,IRT,40.878663,-73.838591
+180,Beach 105th St,Rockaway,IND,40.583209,-73.827559
+181,Beach 25th St,Rockaway,IND,40.600066,-73.761353
+182,Beach 36th St,Rockaway,IND,40.595398,-73.768175
+183,Beach 44th St,Rockaway,IND,40.592943,-73.776013
+184,Beach 60th St,Rockaway,IND,40.592374,-73.788522
+185,Beach 67th St,Rockaway,IND,40.590927,-73.796924
+186,Beach 90th St,Rockaway,IND,40.588034,-73.813641
+187,Beach 98th St,Rockaway,IND,40.585307,-73.820558
+188,Bedford Av,Canarsie,BMT,40.717304,-73.956872
+189,Bedford Park Blvd,Concourse,IND,40.873244,-73.887138
+190,Bedford Park Blvd-Lehman College,Jerome,IRT,40.873412,-73.890064
+191,Bedford-Nostrand Avs,Crosstown,IND,40.689627,-73.953522
+192,Bergen St,6 Avenue,IND,40.686145,-73.990862
+193,Bergen St,Eastern Parkway,IRT,40.680829,-73.975098
+194,Beverly Rd,Brighton,BMT,40.644031,-73.964492
+195,Beverly Rd,Nostrand,IRT,40.645098,-73.948959
+196,Bleecker St,Lexington,IRT,40.725915,-73.994659
+197,Bliss St-46th St,Flushing,IRT,40.743132,-73.918435
+198,Borough Hall,Clark,IRT,40.693219,-73.989998
+199,Borough Hall,Lexington,IRT,40.692404,-73.990151
+200,Botanic Gardens,Franklin,BMT,40.670343,-73.959245
+201,Bowery,Nassau,BMT,40.72028,-73.993915
+202,Bowling Green,Lexington,IRT,40.704817,-74.014065
+203,Briarwood-Van Wyck Blvd,Queens Boulevard,IND,40.709179,-73.820574
+204,Brighton Beach,Brighton,BMT,40.577621,-73.961376
+205,Broad Channel,Rockaway,IND,40.608382,-73.815925
+206,Broad St,Nassau,BMT,40.706476,-74.011056
+207,Broadway,Astoria,BMT,40.76182,-73.925508
+208,Broadway,Crosstown,IND,40.706092,-73.950308
+209,Broadway Junction-East New York,Fulton,IND,40.678334,-73.905316
+210,Broadway-74th St,Flushing,IRT,40.746848,-73.891394
+211,Broadway-Lafayette St,6 Avenue,IND,40.725297,-73.996204
+212,Broadway-Nassau,8 Avenue,IND,40.710197,-74.007691
+213,Bronx Park East,White Plains Road,IRT,40.848828,-73.868457
+214,Brook Av,Pelham,IRT,40.807566,-73.91924
+215,Brooklyn Bridge-City Hall,Lexington,IRT,40.711857,-74.005114
+216,Buhre Av,Pelham,IRT,40.84681,-73.832569
+217,Burke Av,White Plains Road,IRT,40.871356,-73.867164
+218,Burnside Av,Jerome,IRT,40.853453,-73.907684
+219,Bushwick Av,Canarsie,BMT,40.682829,-73.905249
+220,Canal St,8 Avenue,IND,40.720824,-74.005229
+221,Canal St,Broadway-7th Ave,IRT,40.722854,-74.006277
+222,Canal St,Lexington,IRT,40.718803,-74.000193
+223,Canal St,Nassau,BMT,40.718092,-73.999892
+224,Canal St (UL),Broadway,BMT,40.719527,-74.001775
+225,Canarsie - Rockaway Parkway,Canarsie,BMT,40.646654,-73.90185
+226,Carroll St,6 Avenue,IND,40.680303,-73.995048
+227,Castle Hill Av,Pelham,IRT,40.834255,-73.851222
+228,Cathedral Parkway-110th St,8 Avenue,IND,40.800605,-73.958158
+229,Cathedral Parkway-110th St,Broadway-7th Ave,IRT,40.803967,-73.966847
+230,Central Av,Myrtle,BMT,40.697857,-73.927397
+231,Chambers St,8 Avenue,IND,40.714111,-74.008585
+232,Chambers St,Broadway-7th Ave,IRT,40.715478,-74.009266
+233,Chambers St,Nassau,BMT,40.71419,-74.003199
+234,Chauncey St,Broadway Jamaica,BMT,40.682893,-73.910456
+235,Christopher St,Broadway-7th Ave,IRT,40.733422,-74.002906
+236,Church Av,6 Avenue,IND,40.644041,-73.979678
+237,Church Av,Brighton,BMT,40.650527,-73.962982
+238,Church Av,Nostrand,IRT,40.650843,-73.949575
+239,City Hall,Broadway,BMT,40.713282,-74.006978
+240,Clark St,Clark,IRT,40.697466,-73.993086
+241,Classon Av,Crosstown,IND,40.688873,-73.96007
+242,Cleveland St,Broadway Jamaica,BMT,40.679947,-73.884639
+243,Clinton & Washington Avs,Fulton,IND,40.683263,-73.965838
+244,Clinton-Washington Avs,Crosstown,IND,40.688089,-73.966839
+245,Cortelyou Rd,Brighton,BMT,40.640927,-73.963891
+246,Cortlandt St,Broadway,BMT,40.710668,-74.011029
+247,Court St,Broadway,BMT,40.6941,-73.991777
+248,Crescent St,Broadway Jamaica,BMT,40.683194,-73.873785
+249,Cypress Av,Pelham,IRT,40.805368,-73.914042
+250,Cypress Hills,Broadway Jamaica,BMT,40.689941,-73.87255
+251,DeKalb Av,4 Avenue,BMT,40.690635,-73.981824
+252,DeKalb Av,Canarsie,BMT,40.703811,-73.918425
+253,Delancey St,6 Avenue,IND,40.718611,-73.988114
+254,Ditmars Blvd,Astoria,BMT,40.775036,-73.912034
+255,Ditmas Av,Culver,IND,40.636119,-73.978172
+256,Dyckman St,Broadway-7th Ave,IRT,40.860531,-73.925536
+257,Dyckman St-200th St,8 Avenue,IND,40.865491,-73.927271
+258,East 105th St,Canarsie,BMT,40.650573,-73.899485
+259,East 143rd St-St Mary's St,Pelham,IRT,40.808719,-73.907657
+260,East 149th St,Pelham,IRT,40.812118,-73.904098
+261,East 180th St,White Plains Road,IRT,40.841894,-73.873488
+262,East Broadway,6 Avenue,IND,40.713715,-73.990173
+263,East Tremont Av-West Farms Sq,White Plains Road,IRT,40.840295,-73.880049
+264,Eastchester-Dyre Av,Dyre Av,IRT,40.8883,-73.830834
+265,Eastern Parkway-Brooklyn Museum,Eastern Parkway,IRT,40.671987,-73.964375
+266,Elder Av,Pelham,IRT,40.828584,-73.879159
+267,Elderts Lane-75th St,Broadway Jamaica,BMT,40.691324,-73.867139
+268,Elmhurst Av,Queens Boulevard,IND,40.742454,-73.882017
+269,Essex St,Nassau,BMT,40.718315,-73.987437
+270,Euclid Av,Fulton,IND,40.675377,-73.872106
+271,Far Rockaway-Mott Av,Rockaway,IND,40.603995,-73.755405
+272,Fisk Av-69th St,Flushing,IRT,40.746325,-73.896403
+273,Flatbush Av-Brooklyn College,Nostrand,IRT,40.632836,-73.947642
+274,Flushing Av,Broadway Jamaica,BMT,40.70026,-73.941126
+275,Flushing Av,Crosstown,IND,40.700377,-73.950234
+276,Flushing-Main St,Flushing,IRT,40.7596,-73.83003
+277,Fordham Rd,Concourse,IND,40.861296,-73.897749
+278,Fordham Rd,Jerome,IRT,40.862803,-73.901034
+279,Forest Av,Myrtle,BMT,40.704423,-73.903077
+280,Forest Hills-71st Av,Queens Boulevard,IND,40.721691,-73.844521
+281,Forest Parkway-85th St,Broadway Jamaica,BMT,40.692435,-73.86001
+282,Fort Hamilton Parkway,6 Avenue,IND,40.650782,-73.975776
+283,Fort Hamilton Parkway,Sea Beach,BMT,40.631386,-74.005351
+284,Fort Hamilton Parkway,West End,BMT,40.640914,-73.994304
+285,Franklin Av,Eastern Parkway,IRT,40.670682,-73.958131
+286,Franklin Av,Franklin,BMT,40.680596,-73.955827
+287,Franklin Av,Fulton,IND,40.68138,-73.956848
+288,Franklin St,Broadway-7th Ave,IRT,40.719318,-74.006886
+289,Freeman St,White Plains Road,IRT,40.829993,-73.891865
+290,Fresh Pond Rd,Myrtle,BMT,40.706186,-73.895877
+291,Fulton St,Clark,IRT,40.709416,-74.006571
+292,Fulton St,Crosstown,IND,40.687119,-73.975375
+293,Fulton St,Lexington,IRT,40.710368,-74.009509
+294,Fulton St,Nassau,BMT,40.710374,-74.007582
+295,Gates Av,Broadway Jamaica,BMT,40.68963,-73.92227
+296,Graham Av,Canarsie,BMT,40.714565,-73.944053
+297,Grand Army Plaza,Eastern Parkway,IRT,40.675235,-73.971046
+298,Grand Av-Newtown,Queens Boulevard,IND,40.737015,-73.877223
+299,Grand Central,42nd St Shuttle,IRT,40.752769,-73.979189
+300,Grand Central-42nd St,Flushing,IRT,40.751431,-73.976041
+301,Grand Central-42nd St,Lexington,IRT,40.751776,-73.976848
+302,Grand St,6 Avenue,IND,40.718267,-73.993753
+303,Grand St,Canarsie,BMT,40.711926,-73.94067
+304,Grant Av,Liberty,IND,40.677044,-73.86505
+305,Greenpoint Av,Crosstown,IND,40.731352,-73.954449
+306,Gun Hill Rd,Dyre Av,IRT,40.869526,-73.846384
+307,Gun Hill Rd,White Plains Road,IRT,40.87785,-73.866256
+308,Halsey St,Broadway Jamaica,BMT,40.68637,-73.916559
+309,Halsey St,Canarsie,BMT,40.695602,-73.904084
+310,Harlem-148th St,Lenox,IRT,40.82388,-73.93647
+311,Hewes St,Broadway Jamaica,BMT,40.70687,-73.953431
+312,High St,8 Avenue,IND,40.699337,-73.990531
+313,Houston St,Broadway-7th Ave,IRT,40.728251,-74.005367
+314,Howard Beach,Rockaway,IND,40.660476,-73.830301
+315,Hoyt & Schermerhorn,Fulton,IND,40.688484,-73.985001
+316,Hoyt St,Eastern Parkway,IRT,40.690545,-73.985065
+317,Hunters Point,Flushing,IRT,40.742216,-73.948916
+318,Hunts Point Av,Pelham,IRT,40.820948,-73.890549
+319,Intervale Av,White Plains Road,IRT,40.822181,-73.896736
+320,Inwood - 207th St,8 Avenue,IND,40.868072,-73.919899
+321,Jackson Av,White Plains Road,IRT,40.81649,-73.907807
+322,Jackson Heights-Roosevelt Ave,Queens Boulevard,IND,40.746644,-73.891338
+323,Jamaica-179th St,Queens Boulevard,IND,40.712646,-73.783817
+324,Jamaica-Van Wyck,Archer Av,IND,40.702566,-73.816859
+325,Jay St - Borough Hall,Fulton,IND,40.692338,-73.987342
+326,Jefferson St,Canarsie,BMT,40.706607,-73.922913
+327,Junction Blvd,Flushing,IRT,40.749145,-73.869527
+328,Junius St,New Lots,IRT,40.663515,-73.902447
+329,Kew Gardens-Union Turnpike,Queens Boulevard,IND,40.714441,-73.831008
+330,Kings Highway,Brighton,BMT,40.60867,-73.957734
+331,Kings Highway,Culver,IND,40.603217,-73.972361
+332,Kings Highway,Sea Beach,BMT,40.603923,-73.980353
+333,Kingsbridge Rd,Concourse,IND,40.866978,-73.893509
+334,Kingsbridge Rd,Jerome,IRT,40.86776,-73.897174
+335,Kingston Av,Eastern Parkway,IRT,40.669399,-73.942161
+336,Kingston-Throop,Fulton,IND,40.679921,-73.940858
+337,Knickerbocker Av,Myrtle,BMT,40.698664,-73.919711
+338,Kosciusko St,Broadway Jamaica,BMT,40.693342,-73.928814
+339,Lafayette Av,Fulton,IND,40.686113,-73.973946
+340,Lawrence St,Broadway,BMT,40.69218,-73.985942
+341,Lefferts Blvd,Liberty,IND,40.685951,-73.825798
+342,Lexington Av,63rd Street,IND,40.764627,-73.96611
+343,Lexington Av,Broadway,BMT,40.76266,-73.967258
+344,Lexington Av-53rd St,Queens Boulevard,IND,40.757552,-73.969055
+345,Liberty Av,Fulton,IND,40.674542,-73.896548
+346,Lincoln Av-52nd St,Flushing,IRT,40.744149,-73.912549
+347,Livonia Av,Canarsie,BMT,40.664038,-73.900571
+348,Long Island City-Court Square,Crosstown,IND,40.746554,-73.943832
+349,Longwood Av,Pelham,IRT,40.816104,-73.896435
+350,Lorimer St,Broadway Jamaica,BMT,40.703869,-73.947408
+351,Lorimer St,Canarsie,BMT,40.714063,-73.950275
+352,Lowery St-40th St,Flushing,IRT,40.743781,-73.924016
+353,Marble Hill-225th St,Broadway-7th Ave,IRT,40.874561,-73.909831
+354,Marcy Av,Broadway Jamaica,BMT,40.708359,-73.957757
+355,Metropolitan Av,Crosstown,IND,40.712792,-73.951418
+356,Metropolitan Av,Myrtle,BMT,40.711396,-73.889601
+357,Mets - Willets Point,Flushing,IRT,40.754622,-73.845625
+358,Middletown Rd,Pelham,IRT,40.843863,-73.836322
+359,Montrose Av,Canarsie,BMT,40.707739,-73.93985
+360,Morgan Av,Canarsie,BMT,40.706152,-73.933147
+361,Morris Park,Dyre Av,IRT,40.854364,-73.860495
+362,Morrison Av-Soundview Av,Pelham,IRT,40.829521,-73.874516
+363,Mosholu Parkway,Jerome,IRT,40.87975,-73.884655
+364,Mt Eden Av,Jerome,IRT,40.844434,-73.914685
+365,Myrtle Av,Broadway Jamaica,BMT,40.697207,-73.935657
+366,Myrtle Av,Canarsie,BMT,40.699814,-73.911586
+367,Myrtle-Willoughby Avs,Crosstown,IND,40.694568,-73.949046
+368,Nassau Av,Crosstown,IND,40.724635,-73.951277
+369,Neck Rd,Brighton,BMT,40.595246,-73.955161
+370,Neptune Av-Van Siclen,Culver,IND,40.581011,-73.974574
+371,Nevins St,Eastern Parkway,IRT,40.688246,-73.980492
+372,New Lots Av,Canarsie,BMT,40.658733,-73.899232
+373,New Lots Av,New Lots,IRT,40.666235,-73.884079
+374,New Utrecht Av,Sea Beach,BMT,40.624842,-73.996353
+375,Newkirk Av,Brighton,BMT,40.635082,-73.962793
+376,Newkirk Av,Nostrand,IRT,40.639967,-73.948411
+377,Northern Blvd,Queens Boulevard,IND,40.752885,-73.906006
+378,Norwood Av,Broadway Jamaica,BMT,40.68141,-73.880039
+379,Norwood-205th St,Concourse,IND,40.874811,-73.878855
+380,Nostrand Av,Eastern Parkway,IRT,40.669847,-73.950466
+381,Nostrand Av,Fulton,IND,40.680438,-73.950426
+382,Ocean Parkway,Brighton,BMT,40.576312,-73.968501
+383,Pacific St,4 Avenue,BMT,40.683666,-73.97881
+384,Park Place,Clark,IRT,40.713051,-74.008811
+385,Park Place,Franklin,BMT,40.674772,-73.957624
+386,Parkchester-East 177th St,Pelham,IRT,40.833226,-73.860816
+387,Parkside Av,Brighton,BMT,40.655292,-73.961495
+388,Parsons Blvd,Queens Boulevard,IND,40.707564,-73.803326
+389,Parsons Blvd-Archer Av - Jamaica Center,Archer Av,IND,40.702147,-73.801109
+390,Pelham Bay Park,Pelham,IRT,40.852462,-73.828121
+391,Pelham Parkway,Dyre Av,IRT,40.858985,-73.855359
+392,Pelham Parkway,White Plains Road,IRT,40.857192,-73.867615
+393,Pennsylvania Av,New Lots,IRT,40.664635,-73.894895
+394,President St,Nostrand,IRT,40.667883,-73.950683
+395,Prince St,Broadway,BMT,40.724329,-73.997702
+396,Prospect Av,4 Avenue,BMT,40.665414,-73.992872
+397,Prospect Av,White Plains Road,IRT,40.819585,-73.90177
+398,Prospect Park,Brighton,BMT,40.661614,-73.962246
+399,Prospect Park-15 St,6 Avenue,IND,40.660365,-73.979493
+400,Queens Plaza,Queens Boulevard,IND,40.748973,-73.937243
+401,Queensboro Plaza,Flushing,IRT,40.750582,-73.940202
+402,Ralph Av,Fulton,IND,40.678822,-73.920786
+403,Rawson St-33rd St,Flushing,IRT,40.744587,-73.930997
+404,Rector St,Broadway,BMT,40.70722,-74.013342
+405,Rector St,Broadway-7th Ave,IRT,40.707513,-74.013783
+406,Rockaway Av,Fulton,IND,40.67834,-73.911946
+407,Rockaway Av,New Lots,IRT,40.662549,-73.908946
+408,Rockaway Blvd,Liberty,IND,40.680429,-73.843853
+409,Rockaway Park-Beach 116th,Rockaway,IND,40.580903,-73.835592
+410,Roosevelt Island,63rd Street,IND,40.759145,-73.95326
+411,Saratoga Av,New Lots,IRT,40.661453,-73.916327
+412,Seneca Av,Myrtle,BMT,40.702762,-73.90774
+413,Sheepshead Bay,Brighton,BMT,40.586896,-73.954155
+414,Shepherd Av,Fulton,IND,40.67413,-73.88075
+415,Simpson St,White Plains Road,IRT,40.824073,-73.893064
+416,Smith-9th St,6 Avenue,IND,40.67358,-73.995959
+417,South Ferry,Broadway-7th Ave,IRT,40.702068,-74.013664
+418,Spring St,8 Avenue,IND,40.726227,-74.003739
+419,Spring St,Lexington,IRT,40.722301,-73.997141
+420,St Lawrence Av,Pelham,IRT,40.831509,-73.867618
+421,Steinway St,Queens Boulevard,IND,40.756879,-73.92074
+422,Sterling St,Nostrand,IRT,40.662742,-73.95085
+423,Stillwell Av,Brighton,BMT,40.577422,-73.981233
+424,Sutphin Blvd,Queens Boulevard,IND,40.70546,-73.810708
+425,Sutphin Blvd-Archer Av - JFK,Archer Av,IND,40.700486,-73.807969
+426,Sutter Av,Canarsie,BMT,40.669367,-73.901975
+427,Sutter Av,New Lots,IRT,40.664717,-73.92261
+428,Times Square,42nd St Shuttle,IRT,40.755983,-73.986229
+429,Times Square,Broadway-7th Ave,IRT,40.75529,-73.987495
+430,Times Square-42nd St,Broadway,BMT,40.754672,-73.986754
+431,Tremont Av,Concourse,IND,40.85041,-73.905227
+432,Union Square,Broadway,BMT,40.735736,-73.990568
+433,Union Square,Canarsie,BMT,40.734789,-73.99073
+434,Union St,4 Avenue,BMT,40.677316,-73.98311
+435,Utica Av,Eastern Parkway,IRT,40.668897,-73.932942
+436,Utica Av,Fulton,IND,40.679364,-73.930729
+437,Van Cortlandt Park-242nd St,Broadway-7th Ave,IRT,40.889248,-73.898583
+438,Van Siclen Av,Broadway Jamaica,BMT,40.678024,-73.891688
+439,Van Siclen Av,Fulton,IND,40.67271,-73.890358
+440,Van Siclen Av,New Lots,IRT,40.665449,-73.889395
+441,Vernon Blvd-Jackson Av,Flushing,IRT,40.742626,-73.953581
+442,Wakefield-241st St,White Plains Road,IRT,40.903125,-73.85062
+443,Wall St,Clark,IRT,40.706821,-74.0091
+444,Wall St,Lexington,IRT,40.707557,-74.011862
+445,West 4th St,8 Avenue,IND,40.732338,-74.000495
+446,West 8th St,Coney Island,BMT,40.576127,-73.975939
+447,Westchester Square-East Tremont Av,Pelham,IRT,40.839892,-73.842952
+448,Whitehall St,Broadway,BMT,40.703087,-74.012994
+449,Whitlock Av,Pelham,IRT,40.826525,-73.886283
+450,Wilson Av,Canarsie,BMT,40.688764,-73.904046
+451,Winthrop St,Nostrand,IRT,40.656652,-73.9502
+452,Woodhaven Blvd,Broadway Jamaica,BMT,40.693879,-73.851576
+453,Woodhaven Blvd,Queens Boulevard,IND,40.733106,-73.869229
+454,Woodlawn,Jerome,IRT,40.886037,-73.878751
+455,Woodside Av-61st St,Flushing,IRT,40.74563,-73.902984
+456,World Trade Center,8 Avenue,IND,40.712582,-74.009781
+457,Yankee Stadium-161st St,Concourse,IND,40.827905,-73.925651
+458,Yankee Stadium-161st St,Jerome,IRT,40.827994,-73.925831
+459,York St,6 Avenue,IND,40.699743,-73.986885
+460,Zerega Av,Pelham,IRT,40.836488,-73.847036

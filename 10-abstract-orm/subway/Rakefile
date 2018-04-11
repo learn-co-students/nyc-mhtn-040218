@@ -1,0 +1,16 @@
+# Create a task to print out the contents of one of the GenericModel file
+# So that when you run `rake print:generic_model` the contents of the file
+# are printed to the console
+
+namespace :print do
+  desc "Prints out GenericModel file"
+  task :generic_model do
+    # system("cat app/helpers/generic_model.rb")
+    # File.open('./app/helpers/generic_model.rb', 'r') do |r|
+    #   r.each_line do |line|
+    #     puts line
+    #   end
+    # end
+    # puts (IO.read('app/helpers/generic_model.rb'))
+  end
+end
