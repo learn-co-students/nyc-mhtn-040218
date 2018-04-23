@@ -1,0 +1,5 @@
+<h1>All the Fish</h1>
+
+<% @fishes.each do |fish| %>
+  <p><a href=<%= "/fishies/#{fish.id}" %>><%= fish.species %></a> | <%= fish.weight %> pounds</p>
+<% end %>
