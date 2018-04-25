@@ -1,0 +1,16 @@
+<h1><%= @driver.name %></h1>
+<h3><%= @driver.age %> years old</h3>
+
+<% if @driver.cars.size > 0 %>
+  <h4>Reservations:</h4>
+  <ul>
+    <% @driver.cars.each do |car| %>
+      <li>
+        <%= car.make %> 
+        <% if car.lot %>
+          in <%= car.lot.name %>
+        <% end %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>

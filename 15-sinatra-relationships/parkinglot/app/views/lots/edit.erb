@@ -1,0 +1,13 @@
+<h1>Edit Lot Form</h1>
+
+<form action=<%= "/lots/#{@lot.id}" %> method="post">
+  <input type="hidden" name="_method" value="patch" />
+  <label for="name">Name:</label>
+  <input id="name" type="text" name="name" value="<%= @lot.name %>" />
+  <input type="submit" value="Edit Lot" />
+</form>
+
+<form action=<%= "/lots/#{@lot.id}" %> method="post">
+  <input type="hidden" name="_method" value="delete" />
+  <input type="submit" value="Delete Lot!!!!" />
+</form>

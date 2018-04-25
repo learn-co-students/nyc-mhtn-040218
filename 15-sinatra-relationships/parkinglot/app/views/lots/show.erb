@@ -1,0 +1,10 @@
+<h1><%= @lot.name %></h1>
+
+<% if @lot.cars.length > 0 %>
+  <h4>Cars:</h4>
+  <ul>
+    <% @lot.cars.each do |car| %>
+      <li><%= car.make %> <%= car.year %></li>
+    <% end %>
+  </ul>
+<% end %>

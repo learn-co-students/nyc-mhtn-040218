@@ -1,0 +1,14 @@
+<h1><%= @car.make %></h1>
+<h3><%= @car.year %></h3>
+<% if @car.lot %>
+  <h4>In <%= @car.lot.name %></h4>
+<% end %>
+
+<% if @car.drivers.size > 0 %>
+  <h4>Drivers:</h4>
+  <ul>
+    <% @car.drivers.each do |driver| %>
+      <li><%= driver.name %></li>
+    <% end %>
+  </ul>
+<% end %>

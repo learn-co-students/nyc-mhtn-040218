@@ -1,0 +1,26 @@
+<h1>Edit Car Form</h1>
+
+<form action=<%= "/cars/#{@car.id}" %> method="post">
+  <input type="hidden" name="_method" value="patch" />
+  <label for="make">Make:</label>
+  <input id="make" type="text" name="car[make]" value="<%= @car.make %>" />
+  <label for="year">Year:</label>
+  <input id="year" type="text" name="car[year]" value="<%= @car.year %>" />
+
+  <select name="car[lot_id]">
+    <% @lots.each do |lot| %>
+      <option value="<%= lot.id %>"
+        <% if @car.lot_id == lot.id %>
+          selected
+        <% end %>
+      ><%= lot.name %></option>
+    <% end %>
+  </select>
+
+  <input type="submit" value="Edit Car" />
+</form>
+
+<form action=<%= "/cars/#{@car.id}" %> method="post">
+  <input type="hidden" name="_method" value="delete" />
+  <input type="submit" value="Delete Car!!!!" />
+</form>

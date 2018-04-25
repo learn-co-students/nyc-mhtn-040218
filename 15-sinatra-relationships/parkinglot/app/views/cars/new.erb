@@ -1,0 +1,17 @@
+<h1>New Car Form</h1>
+
+<form action="/cars" method="post">
+  <label for="make">Make:</label>
+  <input id="make" type="text" name="car[make]">
+  <label for="year">Year:</label>
+  <input id="year" type="text" name="car[year]">
+
+  <select name="car[lot_id]">
+    <% @lots.each do |lot| %>
+      <option value="<%= lot.id %>"><%= lot.name %></option>
+    <% end %>
+  </select>
+
+
+  <input type="submit" value="Save">
+</form>

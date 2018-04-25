@@ -1,0 +1,7 @@
+<h1>All Drivers Here </h1>
+
+<ul>
+  <% @drivers.each do |driver| %>
+    <li><%= driver.name %> | <%= driver.age %> years old</li>
+  <% end %>
+</ul>

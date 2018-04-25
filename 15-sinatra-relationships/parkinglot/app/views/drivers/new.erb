@@ -1,0 +1,17 @@
+<h1>New Driver Form</h1>
+
+<form action="/drivers" method="post">
+  <label for="name">Name:</label>
+  <input id="name" type="text" name="driver[name]">
+  <label for="age">Age:</label>
+  <input id="age" type="text" name="driver[age]">
+
+  <% @cars.each do |car| %>
+    <div>
+      <input type="checkbox" id="car<%= car.id %>" name="driver[car_ids][]" value="<%= car.id %>">
+      <label for="car<%= car.id %>"><%= car.make %></label>
+    </div>
+  <% end %>
+
+  <input type="submit" value="Save">
+</form>

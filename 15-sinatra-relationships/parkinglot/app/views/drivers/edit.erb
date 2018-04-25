@@ -1,0 +1,27 @@
+<h1>Edit Driver Form</h1>
+
+<form action=<%= "/drivers/#{@driver.id}" %> method="post">
+  <input type="hidden" name="_method" value="patch" />
+  <label for="name">Name:</label>
+  <input id="name" type="text" name="driver[name]" value="<%= @driver.name %>" />
+  <label for="age">Age:</label>
+  <input id="age" type="text" name="driver[age]" value="<%= @driver.age %>" />
+
+  <% @cars.each do |car| %>
+    <div>
+      <input type="checkbox" id="car<%= car.id %>" name="driver[car_ids][]" value="<%= car.id %>"
+        <% if @driver.car_ids.include?(car.id) %>
+          checked
+        <% end %>
+      >
+      <label for="car<%= car.id %>"><%= car.make %></label>
+    </div>
+  <% end %>
+
+  <input type="submit" value="Edit Driver" />
+</form>
+
+<form action=<%= "/drivers/#{@driver.id}" %> method="post">
+  <input type="hidden" name="_method" value="delete" />
+  <input type="submit" value="Delete Driver!!!!" />
+</form>
