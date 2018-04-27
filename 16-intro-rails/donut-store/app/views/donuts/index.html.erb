@@ -1,0 +1,7 @@
+<h1>donuts y'all</h1>
+
+<ul>
+    <% @donuts.each do |donut| %>
+      <li><%= link_to donut.name, donut %> | $<%= donut.price %></li>
+    <% end %>
+</ul>
