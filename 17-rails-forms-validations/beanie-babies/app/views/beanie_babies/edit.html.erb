@@ -1,0 +1,13 @@
+<%= render 'errors' %>
+
+<%= form_for @beaniebaby do |b| %>
+  <%= b.label :name %>
+  <%= b.text_field :name %>
+  <%= b.label :price %>
+  <%= b.number_field :price %>
+  <%= b.label :rarity %>
+  <%= b.number_field :rarity %>
+  <%= b.label :fluffiness %>
+  <%= b.check_box :fluffiness %>
+  <%= b.submit %>
+<% end %>

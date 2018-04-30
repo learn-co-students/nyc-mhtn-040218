@@ -1,0 +1,13 @@
+<h1><%= @beaniebaby.name %></h1>
+<h3><%= @beaniebaby.price %></h3>
+<h3><b><%= @beaniebaby.fluffiness %></b></h3>
+<h3><%= @beaniebaby.rarity %></h3>
+
+<%= form_tag @beaniebaby, method: 'DELETE' do %>
+  <%= submit_tag "KILL" %>
+<% end %>
+
+
+<% if flash[:hello] %>
+<h1><%= flash[:hello] %></h1>
+<% end %>
