@@ -1,0 +1,20 @@
+<%= render "common/errors", end_text: "Try making another Pizza" %>
+
+<%= form_for @pizza do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :price %>
+  <%= f.text_field :price %>
+  <%= f.label :user_id %>
+  <% #collection_select(object, method, collection, value_method, text_method, options = {}, html_options = {}) %>
+  <% # object (inferred as @pizza) %>
+  <% # :user_id - method (what the attribute is in pizza's params) %>
+  <% # @users - collection (the list that we will use to populate the select) %>
+  <% # :id - value_method (what we call on the individual element to populate the params object) %>
+  <% # :name - text_method (the field on the object that we want to show to the user) %>
+  <%= f.collection_select :user_id, @users, :id, :name, {include_blank: 'Select a User'} %>
+  <% #collection_select_tag :pizza, :user_id, @users, :id, :name, {include_blank: ''} %>
+
+  <%= f.collection_check_boxes :topping_ids, @toppings, :id, :name %>
+  <%= f.submit %>
+<% end %>

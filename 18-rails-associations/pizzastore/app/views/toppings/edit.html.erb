@@ -1,0 +1,7 @@
+<h1>Edit Topping Form</h1>
+
+<%= render "form" %>
+
+<%= form_tag @topping, method: "DELETE" do %>
+  <%= submit_tag "Delete This Topping" %>
+<% end %>

@@ -1,0 +1,7 @@
+<h1>Edit User Form</h1>
+
+<%= render "form" %>
+
+<%= form_tag @user, method: "DELETE" do %>
+  <%= submit_tag "Delete This User" %>
+<% end %>

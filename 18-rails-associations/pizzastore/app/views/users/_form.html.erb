@@ -1,0 +1,7 @@
+<%= render "common/errors", end_text: "Try making another User" %>
+
+<%= form_for @user do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.submit %>
+<% end %>

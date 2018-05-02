@@ -1,0 +1,18 @@
+<h1><%= @pizza.name %> | $<%= @pizza.price %></h1>
+
+<% if @pizza.user %>
+  <h4>This Pizza is for: <%= link_to @pizza.user.name, @pizza.user %></h4>
+<% end %>
+
+<% if @pizza.toppings.any? %>
+  <h5>Toppings:</h5>
+  <ul>
+    <% @pizza.toppings.each do |topping| %>
+      <li><%= link_to topping.name, topping %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= link_to "All Pizzas", pizzas_path %>
+
+<%= link_to "Edit this Pizza", edit_pizza_path(@pizza) %>

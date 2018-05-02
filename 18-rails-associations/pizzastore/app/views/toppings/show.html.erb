@@ -1,0 +1,14 @@
+<h1><%= @topping.name %></h1>
+
+<% if @topping.pizzas.any? %>
+  <h5>Appears on:</h5>
+  <ul>
+    <% @topping.pizzas.each do |pizza| %>
+      <li><%= link_to pizza.name, pizza %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= link_to "All Toppings", toppings_path %>
+
+<%= link_to "Edit this Topping", edit_topping_path(@topping) %>

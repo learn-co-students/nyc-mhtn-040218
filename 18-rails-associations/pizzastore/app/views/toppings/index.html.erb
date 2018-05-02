@@ -1,0 +1,7 @@
+<h1>Toppings</h1>
+<%= link_to "New Topping", new_topping_path %>
+<ul>
+  <% @toppings.each do |topping| %>
+    <li><%= link_to topping.name, topping %></li>
+  <% end %>
+</ul>
