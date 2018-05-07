@@ -1,0 +1,7 @@
+<h1> Edit my library </h1>
+
+<%= form_for @user do |f| %>
+  <%= f.text_field :username %>
+  <%= f.collection_check_boxes :book_ids, @books, :id, :title %>
+  <%= f.submit %>
+<% end %>
