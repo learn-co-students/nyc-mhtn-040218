@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  grid-template-rows: 15% 10% 50% 25%;
+  height: 100vh;
+  weight: 100vw;
+}
+
+* {
+  border: 1px solid black;
+}
+nav {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+}
+
+header {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+}
+
+content {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+}
+
+.ad {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+}
+
+footer {
+  grid-row-start: 4;
+
+  grid-column-start: 2;
+}
