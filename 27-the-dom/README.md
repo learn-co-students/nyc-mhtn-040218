@@ -12,7 +12,7 @@ Code associated to the Document Object Model lecture
   * Finding DOM Elements
   * Creating DOM elements
   * Altering DOM elements
-* recognize jQuery
+* What is jQuery
 * **Build something**
 
 ## Selectors
