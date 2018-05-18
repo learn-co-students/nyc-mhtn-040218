@@ -10,7 +10,7 @@ Code associated to the Browser Events lecture
 * Event listeners as function references and as in-line functions
 * Event bubbling and capturing
 * Synthesize knowledge of forms with event listeners
-* Delegate events using the event.target
+* Delegate events using the `event.target`
 
 Resources:
 
