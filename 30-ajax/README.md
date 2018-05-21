@@ -18,3 +18,8 @@ Code associated to the `Ajax` lecture
 * Get the task done (today)
 * Get the job done (mid week)
 * Understand the abstractions we rely on (sometime soon)
+
+## Resources
+
+* [Promises flow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+* [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)
