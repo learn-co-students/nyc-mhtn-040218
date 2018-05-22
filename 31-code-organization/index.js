@@ -1,4 +1,5 @@
 // the module pattern
+// See module.js
 
 // list of functions to interact with our API
 function parseResponseJson(response) {
