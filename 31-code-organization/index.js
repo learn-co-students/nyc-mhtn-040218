@@ -26,9 +26,62 @@ function parseResponseJson(response) {
   }
 
 // Adapter object
+const messageAdapterObj = {
+  url: "https://fetch-message-in-the-bottle.herokuapp.com/api/v1/messages",
+  parseResponseJson: function parseResponseJson(response) {
+    return response.json();
+  },
+  messages: function messages() {
+    const url = this.url;
+    return fetch(url).then(parseResponseJson);
+  },
+  createMessage: function createMessage(body) {
+    const url = this.url;
+    const postConfig = {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json"
+      },
+      body: JSON.stringify(body)
+    };
+    return fetch(url, postConfig).then(parseResponseJson);
+  }
+}
+
+messageAdapterObj.messages().then(console.log)
 
 // Object.create()
+const messageAdapterObjFromObjectCreate = Object.create(messageAdapterObj)
+//const iceCreamsAdapterObjFromObjectCreate = Object.create(messageAdapterObj)
+messageAdapterObjFromObjectCreate.url = "https://fetch-message-in-the-bottle.herokuapp.com/api/v1/messages"
+//iceCreamsAdapterObjFromObjectCreate.url = "https://fetch-message-in-the-bottle.herokuapp.com/api/v1/icecreams"
+messageAdapterObjFromObjectCreate.messages().then(console.log)
 
 // Adapter as a class
+class Adapter {
+  constructor(url) {
+    this.url = url
+  }
 
-//using the module pattern
+  parseResponseJson(response) {
+    return response.json();
+  }
+
+  messages() {
+    return fetch(this.url).then(parseResponseJson);
+  }
+
+  createMessage(body) {
+    const postConfig = {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json"
+      },
+      body: JSON.stringify(body)
+    };
+    return fetch(this.url, postConfig).then(parseResponseJson);
+  }
+}
+
+const messageAdapterFromClass = new Adapter("https://fetch-message-in-the-bottle.herokuapp.com/api/v1/messages")
+messageAdapterFromClass.messages().then(console.log)
