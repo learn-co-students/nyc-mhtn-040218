@@ -47,6 +47,36 @@ function parseResponseJson(response) {
     }
   };
 
+  // Object.create
+  let AdapterObj = {
+    //apiUrl: "https://fetch-message-in-the-bottle.herokuapp.com/api/v1",
+    //resource: "messages",
+    path: function() {
+      return `${this.apiUrl}/${this.resource}`;
+    },
+    parseResponseJson: function parseResponseJson(response) {
+      return response.json();
+    },
+    messages: function messages() {
+      return fetch(this.path()).then(this.parseResponseJson);
+    },
+    createMessage: function createMessage(body) {
+      const postConfig = {
+        method: "POST",
+        headers: {
+          "Content-type": "application/json"
+        },
+        body: JSON.stringify(body)
+      };
+      return fetch(this.path(), postConfig).then(this.parseResponseJson);
+    }
+  };
+
+  const messageAdapterFromObjectCreate = Object.create(AdapterObj)
+  messageAdapterFromObjectCreate.resource = 'messages'
+  messageAdapterFromObjectCreate.apiUrl = "https://fetch-message-in-the-bottle.herokuapp.com/api/v1"
+  messageAdapterFromObjectCreate.messages().then(console.log)
+
   // Adapter as a class
   class Adapter {
     constructor(apiUrl, resource) {
