@@ -1,0 +1,21 @@
+.spin {
+  -webkit-animation: spin 2.5s infinite linear;
+  -moz-animation: spin 2.5s infinite linear;
+  -o-animation: spin 2.5s infinite linear;
+    animation: spin 2.5s infinite linear;
+  -webkit-transform-origin: 50% 58%;
+    transform-origin:50% 58%;
+  -ms-transform-origin:50% 58%;
+}
+
+@-moz-keyframes spin {
+  100% { -moz-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes spin {
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}

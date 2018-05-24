@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pizza Pals 4 Lyfe</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+  </head>
+  <body>
+    <div>
+      <span class="spin"><img class="ui small centered image spin" src="images/pizza.png" style="padding-top: 100px"/></span>
+      <h1 class="ui center aligned header">
+        Pizza Pals
+      </h1>
+    </div>
+    <form id="pizza-form">
+      <div class="ui form container" style="padding-top: 20px">
+        <h2 style="color: teal">Create a Pizza</h2>
+        <div class="two fields">
+        <div class="field">
+          <label>Ingredient Name</label>
+          <input type="text" placeholder="First Ingredient" id="first-ingredient">
+        </div>
+        <div class="field">
+          <label>Ingredient Name</label>
+          <input type="text" placeholder="Second Ingredient" id="second-ingredient">
+        </div>
+      </div>
+        <div class="inline fields">
+          <div class="four wide field">
+            <input type="text" placeholder="Name" id="pizza-name">
+          </div>
+          <div class="four wide field">
+            <input type="text" placeholder="Style" id="pizza-style">
+          </div>
+          <div class="four wide field">
+            <input type="text" placeholder="Creator" id="pizza-creator">
+          </div>
+          <div class="four wide field">
+            <input type="text" placeholder="Image URL" id="pizza-image">
+          </div>
+        </div>
+      <button class="ui basic button" type="submit">Add Pizza</button>
+    </div>
+    </form>
+    <br />
+    <div class="ui container">
+      <div class="two wide field"></div>
+      <div class="twelve wide field">
+        <div class="ui raised very padded text segment">
+          <div id="pizza-cards" class="ui link cards centered">
+          </div>
+        </div>
+      </div>
+      <div class="two wide field"></div>
+    </div>
+    <script src="src/pizza.js"></script>
+    <script src="src/ingredient.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
