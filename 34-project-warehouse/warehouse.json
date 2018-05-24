@@ -1,0 +1,93 @@
+{
+    "users":[
+        {
+            "id": 1,
+            "name": "Jason"
+        },
+        {
+            "id": 2,
+            "name": "Austin Paley"
+        },
+        {
+            "id": 3,
+            "name": "Brie Morales"
+        },
+        {
+            "id": 4,
+            "name": "Yong-Nicholas Kim"
+        },
+        {
+            "id": 5,
+            "name": "Gui Bin Zhang"
+        },
+        {
+            "id": 6,
+            "name": "William Dale"
+        },
+        {
+            "id": 7,
+            "name": "Roger Perez"
+        },
+        {
+            "id": 8,
+            "name": "Michael Myung"
+        },
+        {
+            "id": 9,
+            "name": "Shun Yao"
+        },
+        {
+            "id": 10,
+            "name": "Ryan O'Toole"
+        },
+        {
+            "id": 11,
+            "name": "AHAMED ABBAS"
+        },
+        {
+            "id": 12,
+            "name": "Daniel Brazel"
+        },
+        {
+            "id": 13,
+            "name": "Joe Greiner"
+        },
+        {
+            "id": 14,
+            "name": "Matthew Talbot"
+        },
+        {
+            "id": 15,
+            "name": "Shawn Tannor"
+        },
+        {
+            "id": 16,
+            "name": "Lane Miller"
+        },
+        {
+            "id": 17,
+            "name": "Jesse Horwitz"
+        },
+        {
+            "id": 18,
+            "name": "Celeste Gerard"
+        },
+        {
+            "id": 19,
+            "name": "Ian Pollack"
+        },
+        {
+            "id": 20,
+            "name": "Ryan Hu"
+        }
+    ],
+    "project_ideas":[
+    {
+        "description":"Service to post and comment on Project weak ideas",
+        "comments":[{"user_id":1,"body":"That sound like something we should build to practice for the code challenge"}]
+    },
+    {
+        "description":"Service to incentivize students to practice more with closures. They are so so cool",
+        "comments":[{"user_id":2,"body":"In NYC there are better things to do. Unless you are in a cooding bootcamp!"}]
+    }
+]}

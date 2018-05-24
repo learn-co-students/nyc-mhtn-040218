@@ -1,0 +1,166 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jason"
+    },
+    {
+      "id": 2,
+      "name": "Austin Paley"
+    },
+    {
+      "id": 3,
+      "name": "Brie Morales"
+    },
+    {
+      "id": 4,
+      "name": "Yong-Nicholas Kim"
+    },
+    {
+      "id": 5,
+      "name": "Gui Bin Zhang"
+    },
+    {
+      "id": 6,
+      "name": "William Dale"
+    },
+    {
+      "id": 7,
+      "name": "Roger Perez"
+    },
+    {
+      "id": 8,
+      "name": "Michael Myung"
+    },
+    {
+      "id": 9,
+      "name": "Shun Yao"
+    },
+    {
+      "id": 10,
+      "name": "Ryan O'Toole"
+    },
+    {
+      "id": 11,
+      "name": "AHAMED ABBAS"
+    },
+    {
+      "id": 12,
+      "name": "Daniel Brazel"
+    },
+    {
+      "id": 13,
+      "name": "Joe Greiner"
+    },
+    {
+      "id": 14,
+      "name": "Matthew Talbot"
+    },
+    {
+      "id": 15,
+      "name": "Shawn Tannor"
+    },
+    {
+      "id": 16,
+      "name": "Lane Miller"
+    },
+    {
+      "id": 17,
+      "name": "Jesse Horwitz"
+    },
+    {
+      "id": 18,
+      "name": "Celeste Gerard"
+    },
+    {
+      "id": 19,
+      "name": "Ian Pollack"
+    },
+    {
+      "id": 20,
+      "name": "Ryan Hu"
+    }
+  ],
+  "project_ideas": [
+    {
+      "id": 1,
+      "description": "Service to post and comment on Project weak ideas"
+    },
+    {
+      "id": 2,
+      "description": "Service to incentivize students to practice more with closures. They are so so cool"
+    },
+    {
+      "description": "Let's code this together",
+      "id": 3
+    },
+    {
+      "description": "An app to remind you to rest before the code challenge",
+      "id": 4
+    },
+    {
+      "description": "Add new ideas",
+      "id": 5
+    },
+    {
+      "description": "Add new ideas",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "project_ideas_id": 1,
+      "user_id": 2,
+      "body": "That sound pretty cool"
+    },
+    {
+      "project_ideas_id": 1,
+      "user_id": 1,
+      "body": "Perhaps... perhaps not......",
+      "id": 3
+    },
+    {
+      "project_ideas_id": 1,
+      "user_id": 1,
+      "body": "crossing figers",
+      "id": 4
+    },
+    {
+      "project_ideas_id": 1,
+      "user_id": 2,
+      "body": "That sound pretty cool",
+      "id": 5
+    },
+    {
+      "project_ideas_id": 1,
+      "user_id": 2,
+      "body": "That sound pretty cool",
+      "id": 6
+    },
+    {
+      "project_ideas_id": 1,
+      "user_id": 2,
+      "body": "That sound pretty cool",
+      "id": 7
+    },
+    {
+      "project_ideas_id": 1,
+      "user_id": 2,
+      "body": "That sound pretty cool",
+      "id": 8
+    },
+    {
+      "project_ideas_id": 1,
+      "user_id": 2,
+      "body": "That sound pretty cool",
+      "id": 9
+    },
+    {
+      "project_ideas_id": 1,
+      "user_id": 2,
+      "body": "That sound pretty cool",
+      "id": 10
+    }
+  ]
+}
