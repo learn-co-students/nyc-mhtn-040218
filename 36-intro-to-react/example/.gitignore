@@ -1,0 +1,10 @@
+# This is not included when you do:
+#   npm init
+# or
+#   yarn init
+# to create a new JavaScript project.
+# I added this myself as you normally never want to
+# commit your node_modules folder.
+
+# dependencies
+/node_modules
