@@ -6,10 +6,14 @@ import PlayList from "../components/PlayList";
 import TipJar from "../components/TipJar";
 
 class App extends Component {
+  state = {
+    wallet: 0
+  }
+
   render() {
     return (
       <div className="App">
-        <Profile />
+        <Profile wallet={this.state.wallet} />
         <TipJar />
         <PlayList />
       </div>
