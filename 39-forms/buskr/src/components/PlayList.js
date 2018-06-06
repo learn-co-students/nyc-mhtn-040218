@@ -25,7 +25,7 @@ class PlayList extends Component {
 
   handleClick = () => {
     // console.log('clicked')
-    console.log('this', this)
+    // console.log('this', this)
 
     // const song = this.state.songs.shift()
     // console.log("shift", this.state.songs.shift())
@@ -54,7 +54,7 @@ class PlayList extends Component {
   }
 
   render() {
-    console.log("render", this.state)
+    // console.log("render", this.state)
     return (
       <div className="songlist">
         <h4>Songs</h4>

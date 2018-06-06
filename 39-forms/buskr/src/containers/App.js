@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "../assets/svg/logo.svg";
 import "../assets/css/App.css";
 import Profile from "../components/Profile";
 import PlayList from "../components/PlayList";
@@ -7,6 +6,8 @@ import TipJar from "../components/TipJar";
 import Wallet from "../components/Wallet";
 
 class App extends Component {
+  // Objective:
+  // How do we get money from our tipjar to put in our wallet?
   state = {
     wallet: 0
   }
