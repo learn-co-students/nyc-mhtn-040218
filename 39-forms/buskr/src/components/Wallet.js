@@ -2,7 +2,9 @@ import React from 'react';
 
 const Wallet = (props) => {
   return (
-    <p>Savings: {props.wallet}</p>
+    <div className="wallet">
+      <p>Savings: {props.wallet}</p>
+    </div>
   )
 }
 
