@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const Venue = (props) => {
+const Venue = props => {
   return (
-    <p>Where: <i>{props.children}</i></p>
-  )
-}
+    <p>
+      Where: <i>{props.children}</i>
+    </p>
+  );
+};
 
-export default Venue
+export default Venue;
