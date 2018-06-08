@@ -19,6 +19,10 @@ export default class StopWatch extends React.Component {
     this.props.tossWatch(this.props.id);
   }
 
+  componentWillUnmount() {
+    console.log(`componentWillUnmount`);
+  }
+
   render() {
     return (
       <div style={{ border: '1px solid black', padding: 10, margin: 10 }}>
