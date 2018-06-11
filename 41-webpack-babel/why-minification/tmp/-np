@@ -1,0 +1,15 @@
+--2018-06-11 11:29:39--  http://localhost:3000/
+Resolving localhost (localhost)... ::1, 127.0.0.1
+Connecting to localhost (localhost)|::1|:3000... failed: Connection refused.
+Connecting to localhost (localhost)|127.0.0.1|:3000... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1183 (1.2K) [text/html]
+Saving to: ‘localhost:3000/index.html’
+
+     0K .                                                     100%  125M=0s
+
+2018-06-11 11:29:39 (125 MB/s) - ‘localhost:3000/index.html’ saved [1183/1183]
+
+FINISHED --2018-06-11 11:29:39--
+Total wall clock time: 0.006s
+Downloaded: 1 files, 1.2K in 0s (125 MB/s)
