@@ -10,4 +10,4 @@ React Router
   - Route
   - Link
   - Switch
-  - Redirect
+  - Redirect <== didn't get to; will do in auth
