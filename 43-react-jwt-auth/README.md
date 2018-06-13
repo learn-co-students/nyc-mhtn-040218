@@ -42,6 +42,8 @@ React JWT Auth
 
 ## Lecture Notes (Rails)
 
+JWT!!! - https://jwt.io/
+
 [Postman](https://www.getpostman.com/) - Tool we'll be using to test our routes and auth.
 - Our Routes:
 
@@ -63,6 +65,17 @@ Rails Build Plan
   - Validate
 - Login checks username and password
   - Validate
+
+Notes:
+
+- [Headers in Rails](https://stackoverflow.com/questions/14729795/reading-header-data-in-rails)
+- [has_secure_password](http://api.rubyonrails.org/classes/ActiveModel/SecurePassword/ClassMethods.html)
+
+**Gems**
+
+- [ruby-jwt](https://github.com/jwt/ruby-jwt)
+- [dotenv-rails](https://github.com/bkeepers/dotenv)
+- [rack-cors](https://github.com/cyu/rack-cors)
 
 ### Endgame Code
 
