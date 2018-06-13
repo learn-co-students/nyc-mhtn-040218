@@ -12,10 +12,11 @@ class MySnacks extends Component {
 
   getSnacks = () => {
     fetch(
-      `http://localhost:3000/users/1/snacks`,
+      `http://localhost:3000/users/${localStorage.getItem("id")}/snacks`,
       {
         headers: {
           "Content-Type": "application/json",
+          "Authorization": localStorage.getItem("token")
         }
       }
     )

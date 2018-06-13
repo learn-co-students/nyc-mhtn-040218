@@ -14,9 +14,26 @@ class LoginForm extends Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
+    fetch("http://localhost:3000/sessions/",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ username: this.state.username, password: this.state.password })
+      }
+    )
+    .then(res => res.json())
+    .then(json => {
+      console.log("json", json)
+      localStorage.setItem('token', json.token);
+      localStorage.setItem('id', json.id);
+      this.props.history.push("/my-snacks")
+    })
   }
 
   render() {
+    console.log(this.props);
     return (
       <div className="login">
         <form onSubmit={this.handleSubmit}>

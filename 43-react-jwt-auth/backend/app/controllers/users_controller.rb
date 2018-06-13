@@ -1,4 +1,6 @@
 class UsersController < ApplicationController
+  before_action :requires_login, only: [:users_snacks]
+  before_action :requires_user_match, only: [:users_snacks]
 
   def create
     @user = User.new
@@ -7,8 +9,10 @@ class UsersController < ApplicationController
     @user.password = params[:password]
 
     if (@user.save)
+      token = generate_token
+
       render json: {
-        username: @user.username,
+        token: token,
         id: @user.id
       }
     else
@@ -19,8 +23,6 @@ class UsersController < ApplicationController
   end
 
   def users_snacks
-    @user = User.find_by(id: params[:user_id])
-
     render json: @user.snacks
   end
 

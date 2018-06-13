@@ -3,8 +3,10 @@ class SessionsController < ApplicationController
   def create
     @user = User.find_by(username: params["username"])
     if (@user && @user.authenticate(params["password"]))
+      token = generate_token
+
       render json: {
-        username: @user.username,
+        token: token,
         id: @user.id
       }
     else

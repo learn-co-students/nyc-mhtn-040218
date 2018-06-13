@@ -14,11 +14,13 @@ React JWT Auth
   - using dotenv-rails to hide your encryption key
 - How to use tokens to secure a Rails API
   - Authentication
-    - has_secure_password && password_digest
-    - validation
     - Headers
       - Authorization: Token token=123123123
   - Authorization
+  - frontend vs backend validation
+  - Review Mod 2 Concepts:
+    - has_secure_password && password_digest
+    - validation
 
 ### Afternoon (React)
 
@@ -30,13 +32,25 @@ React JWT Auth
   - Add registration functionality.
   - Add login functionality.
     - Save our JWT token somewhere. Hmm... where?
-    - Show that we are logged in somewhere.
+    - Show that we are logged in somewhere. **<== Didn't do this, but try it out.**
   - Add auth'ed snacks fetching.
   - Add auth'ed my-snacks fetching.
   - Add `Redirect`s to protect our routes (react-router returns!).
   - Add logout functionality.
+    - **We didn't get here but try this on your own!!**
+  - `fetch.catch()` (if there's time)
 
 ## Lecture Notes (Rails)
+
+[Postman](https://www.getpostman.com/) - Tool we'll be using to test our routes and auth.
+- Our Routes:
+
+  ```
+  POST: http://localhost:3000/users
+  POST: http://localhost:3000/sessions
+  GET: http://localhost:3000/snacks
+  GET: http://localhost:3000/users/:id/snacks
+  ```
 
 Rails Build Plan
 - New user
@@ -99,7 +113,6 @@ class ApplicationController < ActionController::API
   def jwt_password
     ENV["JWT_PASSWORD"]
   end
-
 
   def try_decode_token
     token = request.headers["Authorization"]
@@ -246,11 +259,37 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
 end
 ```
 
+### React
+
+**Local Storage** - Everything we searched for:
+
+- [localStorage.getItem](https://stackoverflow.com/questions/46445615/localstorage-getitemkey-sometimes-returns-null-in-a-react-app)
+- [localStorage.setItem](https://stackoverflow.com/questions/38423108/using-localstorage-with-react)
+
+**React Router**
+
+- [NavLink](https://github.com/ReactTraining/react-router/blob/master/packages/react-router-dom/docs/api/NavLink.md)
+- [Route](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/Route.md#render-func)
+- [Redirect](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/docs/api/Redirect.md)
+- [Programmatically navigate using react router](https://stackoverflow.com/questions/31079081/programmatically-navigate-using-react-router)
+
 ## Resources / Extra Reading
+
+**About JWT:**
+
+- [5 Easy Steps to Understanding JSON Web Tokens (JWT)](https://medium.com/vandium-software/5-easy-steps-to-understanding-json-web-tokens-jwt-1164c0adfcec)
+- [JSON Web Token - why is the payload public?](https://softwareengineering.stackexchange.com/questions/280257/json-web-token-why-is-the-payload-public)
+- [Is it secure to decode the jwt token on client side ?](https://github.com/auth0/jwt-decode/issues/4#issuecomment-72366352)
+- [jwt-decode](https://github.com/auth0/jwt-decode) - A library to decode a JWT in JavaScript.
+
+**Rails**
 
 - [has_secure_password](http://api.rubyonrails.org/classes/ActiveModel/SecurePassword/ClassMethods.html)
 - [Rails Status Code Symbols](http://guides.rubyonrails.org/layouts_and_rendering.html#the-status-option)
   - [with Status Message](http://billpatrianakos.me/blog/2013/10/13/list-of-rails-status-code-symbols/)
+
+**Local Storage, Cookies, etc.**
+
 - [StackOverflow: Should JWT be stored in localStorage or cookie?](https://stackoverflow.com/questions/34817617/should-jwt-be-stored-in-localstorage-or-cookie)
 - [Auth0: Where to Store Tokens](https://auth0.com/docs/security/store-tokens#where-to-store-your-jwts)
 - [Where to Store your JWTs – Cookies vs HTML5 Web Storage](https://stormpath.com/blog/where-to-store-your-jwts-cookies-vs-html5-web-storage)

@@ -12,3 +12,8 @@ rails s
 # Or to run on a different port:
 # rails s -p 5000
 ```
+
+.env looks like this:
+```
+JWT_SECRET=asdfasdfjhadjklfhdaks;lfjdjklafhkds
+```
