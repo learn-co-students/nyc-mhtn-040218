@@ -1,5 +1,5 @@
 import React from 'react';
-import { Redirect } from 'react-router-dom';
+// import { Redirect } from 'react-router-dom';
 import Adapter from '../components/Adapter'
 
 function withAuth(WrappedComponent) {
@@ -29,7 +29,7 @@ function withAuth(WrappedComponent) {
     // we instead push them to "/login".
     // How would you go about designing this???
     // Would you want to rename this HOC?
-    
+
     render() {
       return (
         <WrappedComponent {...this.props} />

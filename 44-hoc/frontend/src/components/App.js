@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import NavBar from './NavBar';
 import Welcome from './Welcome';
 import RegistrationForm from './RegistrationForm';
 import LoginForm from './LoginForm';
 import Snacks from './Snacks';
 import MySnacks from './MySnacks';
-import Adapter from './Adapter'
-import withLoading from '../hocs/withLoading';
-import withAuth from '../hocs/withAuth';
+// import Adapter from './Adapter'
+// import withLoading from '../hocs/withLoading';
+// import withAuth from '../hocs/withAuth';
 
 class App extends Component {
   state = {

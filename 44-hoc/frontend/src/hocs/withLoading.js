@@ -52,7 +52,7 @@ function withLoading(WrappedComponent, dataLoader) {
       if (this.state.isLoading) {
         // return <p>Spinny GIF</p>
         // I found a spinny gif!
-        return <img src="https://cdn-images-1.medium.com/max/1600/1*9EBHIOzhE1XfMYoKz1JcsQ.gif" />
+        return <img alt="Spinny GIF" src="https://cdn-images-1.medium.com/max/1600/1*9EBHIOzhE1XfMYoKz1JcsQ.gif" />
       } else {
         // If we get here, then this.state.data has something to pass down.
         // So we pass it down as a prop called initialData.
