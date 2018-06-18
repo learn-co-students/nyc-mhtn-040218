@@ -23,6 +23,8 @@ class UsersController < ApplicationController
   end
 
   def users_snacks
+    # To test and play with our withLoading HOC.
+    # byebug
     render json: @user.snacks
   end
 

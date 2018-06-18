@@ -14,6 +14,9 @@
     #     message: "No good"
     #   }, status: :unauthorized
     # end
+
+    # To test and play with our withLoading HOC.
+    # byebug
     render json: Snack.all
   end
 

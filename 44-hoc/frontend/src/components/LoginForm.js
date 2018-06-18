@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import withAuth from '../hocs/withAuth';
 
 class LoginForm extends Component {
   state = {
@@ -60,4 +61,4 @@ class LoginForm extends Component {
   }
 }
 
-export default LoginForm;
+export default withAuth(LoginForm);

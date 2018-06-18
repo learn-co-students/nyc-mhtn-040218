@@ -1,32 +1,34 @@
 import React, { Component } from 'react';
 import SnackList from './SnackList';
+import Adapter from './Adapter';
+import withLoading from '../hocs/withLoading';
 
 class MySnacks extends Component {
   state = {
-    snacks: [],
+    snacks: this.props.initialData,
   }
 
-  componentDidMount() {
-    this.getSnacks();
-  }
-
-  getSnacks = () => {
-    fetch(
-      `http://localhost:3000/users/${localStorage.getItem("id")}/snacks`,
-      {
-        headers: {
-          "Content-Type": "application/json",
-          "Authorization": localStorage.getItem("token")
-        }
-      }
-    )
-    .then(res => res.json())
-    .then(json => {
-      this.setState({
-        snacks: json,
-      });
-    });
-  }
+  // componentDidMount() {
+  //   this.getSnacks();
+  // }
+  //
+  // getSnacks = () => {
+  //   fetch(
+  //     `http://localhost:3000/users/${localStorage.getItem("id")}/snacks`,
+  //     {
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //         "Authorization": localStorage.getItem("token")
+  //       }
+  //     }
+  //   )
+  //   .then(res => res.json())
+  //   .then(json => {
+  //     this.setState({
+  //       snacks: json,
+  //     });
+  //   });
+  // }
 
   render() {
     return (
@@ -38,4 +40,4 @@ class MySnacks extends Component {
   }
 }
 
-export default MySnacks;
+export default withLoading(MySnacks, Adapter.getMySnacks);

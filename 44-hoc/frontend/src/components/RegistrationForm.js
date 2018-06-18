@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import AuthAdapter from './'
 // AuthAdapter.saveToken(token)
+import withAuth from '../hocs/withAuth';
 
 class RegistrationForm extends Component {
   state = {
@@ -69,4 +70,4 @@ class RegistrationForm extends Component {
   }
 }
 
-export default RegistrationForm;
+export default withAuth(RegistrationForm);
