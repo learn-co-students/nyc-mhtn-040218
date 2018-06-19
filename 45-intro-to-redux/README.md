@@ -82,7 +82,7 @@ Redux. That's what.
 
 ### Redux Overview
 
-See slides.
+[See slides](https://docs.google.com/presentation/d/1IIzo1y-nHkQEGtEhDiq7NevbTipq0jGj9XjOs4hLE9Q/edit?usp=sharing).
 
 **Key Points**
 
