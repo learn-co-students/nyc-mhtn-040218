@@ -103,6 +103,7 @@ Egghead courses by Dan Abramov:
 
 - [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux)
 - [Building React Applications with Idiomatic Redux](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
+- [Pure vs Impure Functions](https://egghead.io/lessons/react-redux-pure-and-impure-functions)
 
 Redux docs:
 
