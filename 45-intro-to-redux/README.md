@@ -107,6 +107,7 @@ Egghead courses by Dan Abramov:
 Redux docs:
 
 - [Redux](https://redux.js.org/)
+- [Basics: Usage with React](https://redux.js.org/basics/usage-with-react)
 - [FAQ: Code Structure](https://redux.js.org/faq/code-structure)
 - [FAQ: Do I have to put all my state into Redux? Should I ever use React's setState()?](https://redux.js.org/faq/organizing-state#do-i-have-to-put-all-my-state-into-redux-should-i-ever-use-reacts-setstate)
 - [Recipes: Using Object Spread Operator](https://redux.js.org/recipes/using-object-spread-operator)
