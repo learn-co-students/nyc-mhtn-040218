@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 // import ADD_NOTEBOOK from '../actions';
 import { addNotebook } from '../actions';
+import NoteContainer from './NoteContainer';
+import SideBar from './SideBar';
 
 class App extends Component {
   test = () => {
@@ -27,7 +29,8 @@ class App extends Component {
 
         <button onClick={this.test}>TEST REDUX!!!</button>
 
-
+        <NoteContainer />
+        <SideBar />
       </div>
     );
   }

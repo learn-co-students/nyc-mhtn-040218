@@ -1,11 +1,8 @@
-const initialState = {
-  // emopty!!
-}
+import notebookReducer from './notebook';
+import paintingReducer from './painting';
+import { combineReducers } from 'redux';
 
-const reducer = (state = initialState, action) => {
-  console.log("It works!!");
-  console.log(action);
-  return state;
-}
-
-export default reducer;
+export default combineReducers({
+  notebook: notebookReducer,
+  painting: paintingReducer,
+})
