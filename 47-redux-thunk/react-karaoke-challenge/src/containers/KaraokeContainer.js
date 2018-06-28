@@ -2,8 +2,9 @@ import React, { Component } from 'react';
 import Filter from '../components/Filter';
 import SongList from '../components/SongList';
 import KaraokeDisplay from '../components/KaraokeDisplay';
-// import songs from '../data/songs';
+import songs from '../data/songs';
 import { connect } from 'react-redux';
+import { fetchSongs } from '../actions';
 
 class KaraokeContainer extends Component {
   state = {
@@ -15,10 +16,19 @@ class KaraokeContainer extends Component {
   componentDidMount() {
     // fetch('http://localhost:4000/songs')
     //   .then(res => res.json())
-    //   .then(json => this.setState({ songs: json }))
+    //   .then(json => this.props.setSongs(json));
+
+    this.props.dispatch(fetchSongs())
+
+      // .then(json => this.setState({ songs: json }))
+
+    // we have fetched!
+    // this.props.setSongs(songs);
   }
 
   playSong = (id) => {
+    this.props.dispatch(fetchSongs())
+
     const currentSong = this.props.songs.find(song => song.id === id);
     // this.setState({ currentSong });
     this.props.playSong(currentSong);
@@ -32,6 +42,8 @@ class KaraokeContainer extends Component {
     //   .then(json => {
     //     console.log(json);
     //   })
+
+    this.props.dispatch(fetchSongs())
   }
 
   updateTitle = (event) => {
@@ -68,7 +80,11 @@ const mapDispatchToProps = dispatch => {
   return {
     playSong: (song) => {
       dispatch({ type: "PLAY_SONG", payload: song })
-    }
+    },
+    setSongs: (songs) => {
+      dispatch({ type: "SET_SONGS", payload: songs })
+    },
+    dispatch
   }
 }
 
